@@ -1,6 +1,7 @@
 import React from 'react'
 import { View, Text, ImageBackground } from 'react-native';
 import styles from './styles';
+import StyledButton from "../StyledButton"
 
 
 const CartItem = (props) =>
@@ -15,8 +16,11 @@ const CartItem = (props) =>
           <Text style={styles.title}>Model S</Text>
           <Text style={styles.subtitle}>Starting at $69,420</Text>
         </View>
-
-      </View>
+          
+            <StyledButton type="primary" />
+        </View>
+        
+      
     )
 }
 
